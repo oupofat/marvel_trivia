@@ -1,0 +1,26 @@
+/*font-family: 'Marvel', sans-serif;
+font-family: 'Raleway', sans-serif;
+<link href="https://fonts.googleapis.com/css?family=Marvel|Raleway" rel="stylesheet">
+
+*:not(path):not(g) {
+    color: hsla(210, 100%, 100%, 0.9) !important;
+    background: hsla(210, 100%, 50%, 0.5) !important;
+    outline: solid 0.25rem hsla(210, 100%, 100%, 0.5) !important;
+    box-shadow: none !important;
+}
+*/
+
+body { 
+  background-image: url(marvel.jpg); 
+    background-size: cover;
+    background-position: 50% 50%;
+}
+#header {
+    font-family: 'Marvel', sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+    color: #e23636;
+}
+#score {
+    font-weight: bolder;
+}
