@@ -31,7 +31,7 @@
 
 </head>
 
-<body>
+<body id="background">
     <br />
     <header id="header" class="col-sm">Marvel Movie Trivia</header>
     <br />
@@ -100,7 +100,16 @@
             <aside class="col-sm"><img src="css/images/deadpool.jpg" alt="deadpool" /></aside>
         </div>
         <br />
-        <div id="question" class="row col-sm-12"><input type="checkbox" name="question3" /><label>Weasel is Wade's best friend? True?</label></div>
+        <div id="question" class="row col-sm-12">
+            <label>Weasel is Wade's best friend?</label>
+        </div>
+        <div>
+            <label>True?</label><input type="checkbox" name="question3" value="true" />
+        </div>
+        <div>
+            <label>False</label>
+            <input type="checkbox" name="question3" value="false" />
+        </div>
         <br />
         <button type="submit" class="col-sm-1">Submit</button>
     </form>
