@@ -36,7 +36,7 @@ $("#marvel_question3").on("submit", function (event) {
     console.log(answer3);
     if (answer3)
         score++;
-    console.log(score);
+    //console.log(score);
     $("[name=score]").text(score);
     $("#marvel_question3").hide();
     $("#marvel_question4").show();
@@ -65,5 +65,7 @@ $("#marvel_question5").on("submit", function (event) {
         score++;
     $("[name=score]").text(score);
     $("#marvel_question5").hide();
-    alert("great job, you got" + score + " out of 5");
+    var background = $("#background").css("background-image", "url('css/images/marvel_background.jpg')");
+    alert("great job, you got " + score + " out of 5");
+    console.log(background);
 });

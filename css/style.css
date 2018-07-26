@@ -10,17 +10,19 @@ font-family: 'Raleway', sans-serif;
 }
 */
 
-body { 
-  background-image: url(marvel.jpg); 
+body {
+    background-image: url(marvel.jpg);
     background-size: cover;
     background-position: 50% 50%;
 }
+
 #header {
     font-family: 'Marvel', sans-serif;
     font-size: 2em;
     font-weight: bolder;
     color: #e23636;
 }
+
 #score {
     font-weight: bolder;
 }
